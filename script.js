@@ -261,7 +261,7 @@ function buildPlaylist() {
          (Hint: img.onerror = function () { ... })
        - Create a <span> with the song title as its text
        - Create a <span> with className "remove-hint" and
-         text "click to remove"
+         text "remove"
        - Append the img and both spans to the row, then
          append the row to `container`
 
@@ -287,7 +287,7 @@ function buildPlaylist() {
 
     const removeHint = document.createElement("span");
     removeHint.className = "remove-hint";
-    removeHint.textContent = "click to remove";
+    removeHint.textContent = "remove";
 
     row.appendChild(img);
     row.appendChild(titleSpan);
