@@ -52,7 +52,7 @@ const playlistData = {
   ],
   hype: [
     {
-      title: "Drake — Nonstop",
+      title: "Kendrick Lamar — Humble",
       cover:
         "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=300&q=80",
     },
